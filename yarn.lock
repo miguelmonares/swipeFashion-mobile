@@ -3936,7 +3936,7 @@
   "resolved" "https://registry.npmjs.org/alphanum-sort/-/alphanum-sort-1.0.2.tgz"
   "version" "1.0.2"
 
-"amazon-cognito-identity-js@5.1.0":
+"amazon-cognito-identity-js@^5.1.0", "amazon-cognito-identity-js@5.1.0":
   "integrity" "sha512-zGJo9jpTBHaTrir9nBWxMnteR+uPMSq3SO9AT0EOAO/e1CyJ27sawe0Pd3218HPzsooOMZt0iYaWkpVrsQ3nSQ=="
   "resolved" "https://registry.npmjs.org/amazon-cognito-identity-js/-/amazon-cognito-identity-js-5.1.0.tgz"
   "version" "5.1.0"

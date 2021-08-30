@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import {View, StyleSheet, Pressable, Text, SafeAreaView} from 'react-native';
 import HomeScreen from './src/screens/HomeScreen';
 import MatchesScreen from './src/screens/MatchesScreen';
+import ProfileScreen from './src/screens/ProfileScreen';
 import Fontisto from 'react-native-vector-icons/Fontisto';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -41,10 +42,17 @@ const App = () => {
               color={activeScreen == 'CHAT' ? activeColor : color}
             />
           </Pressable>
-          <FontAwesome name="user" size={24} color={color} />
+          <Pressable onPress={() => setActiveScreen('PROFILE')}>
+            <FontAwesome
+              name="user"
+              size={24}
+              color={activeScreen == 'PROFILE' ? activeColor : color}
+            />
+          </Pressable>
         </View>
         {activeScreen == 'HOME' && <HomeScreen />}
         {activeScreen == 'CHAT' && <MatchesScreen />}
+        {activeScreen == 'PROFILE' && <ProfileScreen />}
       </View>
     </SafeAreaView>
   );
