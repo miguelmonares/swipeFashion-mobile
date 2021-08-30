@@ -7,6 +7,11 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome from 'react-native-vector-icons/FontAwesome';
+import Amplify from 'aws-amplify';
+import config from './src/aws-exports';
+import {withAuthenticator} from 'aws-amplify-react-native';
+
+Amplify.configure(config);
 
 const App = () => {
   const [activeScreen, setActiveScreen] = useState('HOME');
@@ -61,4 +66,4 @@ const styles = StyleSheet.create({
     padding: 10,
   },
 });
-export default App;
+export default withAuthenticator(App);

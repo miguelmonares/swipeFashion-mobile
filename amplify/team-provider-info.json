@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fashionapp-staging-92449-authRole",
+      "UnauthRoleArn": "arn:aws:iam::896512185130:role/amplify-fashionapp-staging-92449-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::896512185130:role/amplify-fashionapp-staging-92449-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-fashionapp-staging-92449-deployment",
+      "UnauthRoleName": "amplify-fashionapp-staging-92449-unauthRole",
+      "StackName": "amplify-fashionapp-staging-92449",
+      "StackId": "arn:aws:cloudformation:us-east-2:896512185130:stack/amplify-fashionapp-staging-92449/1ffccbc0-0974-11ec-a6ab-0260c7ec755c",
+      "AmplifyAppId": "d3uk9aq7wnqz6i"
+    }
+  }
+}

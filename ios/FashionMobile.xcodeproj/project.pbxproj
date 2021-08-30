@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		43A0DB41FF898087849F8BBA /* libPods-FashionMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFDFF016C8425468167A964 /* libPods-FashionMobile.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9C86CEEE3F04866D2CA9D343 /* libPods-FashionMobile-FashionMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20B66680AEF38394B0C92FC9 /* libPods-FashionMobile-FashionMobileTests.a */; };
-		DBAD6B97A8C09020B2803995 /* libPods-FashionMobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7FBB63247C2ABF6298063C0 /* libPods-FashionMobile.a */; };
+		82EAED8F3656764F2C804214 /* libPods-FashionMobile-FashionMobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA52EB5ED3BEC60B0FFF739F /* libPods-FashionMobile-FashionMobileTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,22 @@
 		00E356EE1AD99517003FC87E /* FashionMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FashionMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FashionMobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FashionMobileTests.m; sourceTree = "<group>"; };
-		031617E2BE5B1CD54DB8AFCF /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile-FashionMobileTests.release.xcconfig"; path = "Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		024D89DFED73354762D92B1C /* Pods-FashionMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobileTests.release.xcconfig"; path = "Target Support Files/Pods-FashionMobileTests/Pods-FashionMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FashionMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FashionMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FashionMobile/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FashionMobile/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = FashionMobile/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = FashionMobile/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FashionMobile/main.m; sourceTree = "<group>"; };
-		20B66680AEF38394B0C92FC9 /* libPods-FashionMobile-FashionMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionMobile-FashionMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFDFF016C8425468167A964 /* libPods-FashionMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5728B0B0AE4EA3B0DE802856 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile-FashionMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		621B442E4121257B7D4F9276 /* Pods-FashionMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile.debug.xcconfig"; path = "Target Support Files/Pods-FashionMobile/Pods-FashionMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		7826BF08C3F9DDB51CFA2CD4 /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile-FashionMobileTests.release.xcconfig"; path = "Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests.release.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FashionMobile/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8AD26103B7BF83A1ED1FCC55 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile-FashionMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D7FBB63247C2ABF6298063C0 /* libPods-FashionMobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionMobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5B0A036A55A2DBE93ADBAB /* Pods-FashionMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile.release.xcconfig"; path = "Target Support Files/Pods-FashionMobile/Pods-FashionMobile.release.xcconfig"; sourceTree = "<group>"; };
+		AD44BD68B150F742B553C7D7 /* Pods-FashionMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobileTests.debug.xcconfig"; path = "Target Support Files/Pods-FashionMobileTests/Pods-FashionMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DA52EB5ED3BEC60B0FFF739F /* libPods-FashionMobile-FashionMobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FashionMobile-FashionMobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		F260FF7675B81E00BB1D6759 /* Pods-FashionMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile.debug.xcconfig"; path = "Target Support Files/Pods-FashionMobile/Pods-FashionMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		FA26ADF82A6C292DB93EC05E /* Pods-FashionMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FashionMobile.release.xcconfig"; path = "Target Support Files/Pods-FashionMobile/Pods-FashionMobile.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C86CEEE3F04866D2CA9D343 /* libPods-FashionMobile-FashionMobileTests.a in Frameworks */,
+				82EAED8F3656764F2C804214 /* libPods-FashionMobile-FashionMobileTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBAD6B97A8C09020B2803995 /* libPods-FashionMobile.a in Frameworks */,
+				43A0DB41FF898087849F8BBA /* libPods-FashionMobile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,19 +102,21 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D7FBB63247C2ABF6298063C0 /* libPods-FashionMobile.a */,
-				20B66680AEF38394B0C92FC9 /* libPods-FashionMobile-FashionMobileTests.a */,
+				2EFDFF016C8425468167A964 /* libPods-FashionMobile.a */,
+				DA52EB5ED3BEC60B0FFF739F /* libPods-FashionMobile-FashionMobileTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7FC9C2AC3CE530B1A8A1D2C8 /* Pods */ = {
+		548B62C7F2F03F9481BA2870 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F260FF7675B81E00BB1D6759 /* Pods-FashionMobile.debug.xcconfig */,
-				DD5B0A036A55A2DBE93ADBAB /* Pods-FashionMobile.release.xcconfig */,
-				8AD26103B7BF83A1ED1FCC55 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */,
-				031617E2BE5B1CD54DB8AFCF /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */,
+				621B442E4121257B7D4F9276 /* Pods-FashionMobile.debug.xcconfig */,
+				FA26ADF82A6C292DB93EC05E /* Pods-FashionMobile.release.xcconfig */,
+				AD44BD68B150F742B553C7D7 /* Pods-FashionMobileTests.debug.xcconfig */,
+				024D89DFED73354762D92B1C /* Pods-FashionMobileTests.release.xcconfig */,
+				5728B0B0AE4EA3B0DE802856 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */,
+				7826BF08C3F9DDB51CFA2CD4 /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -133,7 +137,7 @@
 				00E356EF1AD99517003FC87E /* FashionMobileTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7FC9C2AC3CE530B1A8A1D2C8 /* Pods */,
+				548B62C7F2F03F9481BA2870 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -156,12 +160,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "FashionMobileTests" */;
 			buildPhases = (
-				733A3ADD8B2B7E21A26E7914 /* [CP] Check Pods Manifest.lock */,
+				EFF349A0B3F2BCB1FCEA0321 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				FE05AE91816EC250FD10A10E /* [CP] Embed Pods Frameworks */,
-				3F33B7C99F6C5460734A5729 /* [CP] Copy Pods Resources */,
+				8186D4E5819B025FEC089FB4 /* [CP] Embed Pods Frameworks */,
+				FA37E37D91DE4533E1032223 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +181,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "FashionMobile" */;
 			buildPhases = (
-				E60459EA9EBBB7BED237EE2A /* [CP] Check Pods Manifest.lock */,
+				9CFB720E79CD1C91F43BBE2E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				46EEFB34F2C9764AC1FFD8AA /* [CP] Embed Pods Frameworks */,
-				332C4F506F407C017FB4B995 /* [CP] Copy Pods Resources */,
+				ECDBD6A6E08D030F7A7CC691 /* [CP] Embed Pods Frameworks */,
+				27987F09FB21E83A374E4E08 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,7 +269,7 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		332C4F506F407C017FB4B995 /* [CP] Copy Pods Resources */ = {
+		27987F09FB21E83A374E4E08 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,63 +286,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		3F33B7C99F6C5460734A5729 /* [CP] Copy Pods Resources */ = {
+		8186D4E5819B025FEC089FB4 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		46EEFB34F2C9764AC1FFD8AA /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		733A3ADD8B2B7E21A26E7914 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FashionMobile-FashionMobileTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E60459EA9EBBB7BED237EE2A /* [CP] Check Pods Manifest.lock */ = {
+		9CFB720E79CD1C91F43BBE2E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -360,6 +325,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		ECDBD6A6E08D030F7A7CC691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile/Pods-FashionMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFF349A0B3F2BCB1FCEA0321 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FashionMobile-FashionMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA37E37D91DE4533E1032223 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -377,23 +398,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FE05AE91816EC250FD10A10E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FashionMobile-FashionMobileTests/Pods-FashionMobile-FashionMobileTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -429,7 +433,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8AD26103B7BF83A1ED1FCC55 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */;
+			baseConfigurationReference = 5728B0B0AE4EA3B0DE802856 /* Pods-FashionMobile-FashionMobileTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +460,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 031617E2BE5B1CD54DB8AFCF /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */;
+			baseConfigurationReference = 7826BF08C3F9DDB51CFA2CD4 /* Pods-FashionMobile-FashionMobileTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +484,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F260FF7675B81E00BB1D6759 /* Pods-FashionMobile.debug.xcconfig */;
+			baseConfigurationReference = 621B442E4121257B7D4F9276 /* Pods-FashionMobile.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +510,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DD5B0A036A55A2DBE93ADBAB /* Pods-FashionMobile.release.xcconfig */;
+			baseConfigurationReference = FA26ADF82A6C292DB93EC05E /* Pods-FashionMobile.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
