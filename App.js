@@ -18,14 +18,14 @@ const App = () => {
   const [activeScreen, setActiveScreen] = useState('HOME');
 
   const color = '#b5b5b5';
-  const activeColor = '#F76C68';
+  const activeColor = '#000';
   return (
     <SafeAreaView style={styles.root}>
       <View style={styles.pageContainer}>
         <View style={styles.topNavigation}>
           <Pressable onPress={() => setActiveScreen('HOME')}>
-            <Fontisto
-              name="tinder"
+            <MaterialCommunityIcons
+              name="tshirt-crew"
               size={24}
               color={activeScreen == 'HOME' ? activeColor : color}
             />

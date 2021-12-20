@@ -29,10 +29,11 @@ export declare class UntitledModel {
 export declare class User {
   readonly id: string;
   readonly name: string;
-  readonly imag?: string;
+  readonly image?: string;
   readonly bio: string;
   readonly gender: Genders | keyof typeof Genders;
   readonly lookingFor: Genders | keyof typeof Genders;
+  readonly sub: string;
   readonly createdAt?: string;
   readonly updatedAt?: string;
   constructor(init: ModelInit<User, UserMetaData>);

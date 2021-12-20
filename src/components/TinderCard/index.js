@@ -19,8 +19,8 @@ const Card = props => {
   );
 };
 const styles = StyleSheet.create({
-  name: {fontSize: 30, color: 'white', fontWeight: 'bold'},
-  bio: {fontSize: 18, color: 'white', lineHeight: 25},
+  name: {fontSize: 30, color: 'white', fontWeight: 'bold', color: 'black'},
+  bio: {fontSize: 18, color: 'white', lineHeight: 25, color: 'black'},
   card: {
     width: '100%',
     height: '100%',

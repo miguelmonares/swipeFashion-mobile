@@ -6,8 +6,13 @@ const MatchesScreen = () => {
   return (
     <SafeAreaView style={styles.root}>
       <View style={styles.container}>
-        <Text style={{fontWeight: 'bold', fontSize: 24, color: '#F63A6E'}}>
-          New Matches
+        <Text
+          style={{
+            fontWeight: 'bold',
+            fontSize: 24,
+            color: '#F63A6E',
+          }}>
+          Clothes
         </Text>
         <View style={styles.users}>
           {users.map(user => (
@@ -29,6 +34,7 @@ const styles = StyleSheet.create({
   },
   container: {
     padding: 10,
+    alignItems: 'center',
   },
   user: {
     width: 100,

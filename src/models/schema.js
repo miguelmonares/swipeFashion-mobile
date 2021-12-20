@@ -95,8 +95,8 @@ export const schema = {
                     "isRequired": true,
                     "attributes": []
                 },
-                "imag": {
-                    "name": "imag",
+                "image": {
+                    "name": "image",
                     "isArray": false,
                     "type": "String",
                     "isRequired": false,
@@ -124,6 +124,13 @@ export const schema = {
                     "type": {
                         "enum": "Genders"
                     },
+                    "isRequired": true,
+                    "attributes": []
+                },
+                "sub": {
+                    "name": "sub",
+                    "isArray": false,
+                    "type": "String",
                     "isRequired": true,
                     "attributes": []
                 },
@@ -181,5 +188,5 @@ export const schema = {
         }
     },
     "nonModels": {},
-    "version": "119d5b8841f3b0d584b263d437e45e31"
+    "version": "62ce67dfc4fc109c2f875c82ef6c37e8"
 };
